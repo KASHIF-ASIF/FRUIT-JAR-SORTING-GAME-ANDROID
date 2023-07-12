@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="272dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:text="Developed By: M KASHIF"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.69"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exitagain" />
+
+    <ImageButton
+        android:id="@+id/playagain"
+        android:layout_width="257dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Playagain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/play_again" />
+
+    <ImageButton
+        android:id="@+id/exitagain"
+        android:layout_width="238dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="Exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playagain"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="436dp"
+        android:layout_height="282dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/you_win" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
